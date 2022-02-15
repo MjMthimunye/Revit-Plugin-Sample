@@ -39,7 +39,8 @@ namespace myFirstPlugin
             RibbonPanel panel = RibbonPanel(application);
             string thisAssemblyPath = Assembly.GetExecutingAssembly().Location;
 
-            if(panel.AddItem(new PushButtonData("jacobian", "jacobian", thisAssemblyPath, "myFirstPlugin.Command")) is PushButton button)
+            if(panel.AddItem(new PushButtonData("FirstPlugin", "FirstPlugin", thisAssemblyPath, "myFirstPlugin.Command")) 
+                is PushButton button)
             {
                 button.ToolTip = "My First Plugin";
 
@@ -69,7 +70,7 @@ namespace myFirstPlugin
             {
                 a.CreateRibbonTab(tab);
             }   
-            catch (Exception ex)
+            catch (Exception ex) 
             {
                Debug.WriteLine(ex.Message);
             }
