@@ -1,5 +1,5 @@
 # RevitPluginSample
-Simple Revit plugin
+Simple Revit plugin sample
 
 * Developed by Musa Mthimunye
 
