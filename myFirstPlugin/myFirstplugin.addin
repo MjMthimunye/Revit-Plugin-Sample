@@ -5,7 +5,7 @@
     <Assembly>myFirstPlugin.dll</Assembly>
     <AddInId>4962DD4B-5D1A-400C-BA0A-2DE9798C3644</AddInId>
     <FullClassName>myFirstPlugin.Application</FullClassName>
-    <VendorId>Jacobian Dev</VendorId>
+    <VendorId>EnergiaBIM</VendorId>
     <VendorDescription>https://github.com/MjMthimunye</VendorDescription>
   </AddIn>
 </RevitAddIns>

@@ -62,7 +62,7 @@ namespace myFirstPlugin
         /// <returns></returns>
         public RibbonPanel RibbonPanel(UIControlledApplication a)
         {
-            string tab = "JacobianDev";
+            string tab = "Jacobian";
 
             RibbonPanel ribbonPanel = null;
 
